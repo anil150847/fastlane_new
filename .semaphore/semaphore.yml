@@ -10,4 +10,4 @@ blocks:
       jobs:
         - name: Test Code
           commands:
-            - flutter test test
+            - 'flutter test '
