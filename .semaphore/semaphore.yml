@@ -8,6 +8,9 @@ blocks:
   - name: Test
     task:
       jobs:
-        - name: Test Code
+        - name: Unit Tests
           commands:
-            - 'flutter test '
+            - echo 'running unit tests'
+        - name: Integration Tests
+          commands:
+            - echo 'running integration tests'
