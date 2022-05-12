@@ -13,4 +13,4 @@ blocks:
             - echo 'running unit tests'
         - name: Integration Tests
           commands:
-            - echo 'running integration tests'
+            - echo 'running widgets tests'
